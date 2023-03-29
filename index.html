@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -13,56 +14,56 @@
             <h1>CADASTRO</h1>
             <form>
                 <label for="Name">Nome:</label>
-                <input type="text" id="name" placeholder="Nome">
+                <input type="text" id="name" placeholder="Nome" class="textfield">
     
                 <label for="colorpicker">Cor favorita</label>
-                <input type="color" id="colorpicker">
+                <input type="color" id="colorpicker"><br><br>
     
                 <label for="nascimento">Data de nascimento</label>
-                <input type="date" id="nascimento">
+                <input type="date" id="nascimento"><br><br>
     
                 <label for="hrnascimento">Horário do nascimento</label>
-                <input type="time" id="hrnascimento">
+                <input type="time" id="hrnascimento"><br><br>
     
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="aaa@bbb.com">
+                <input type="email" id="email" placeholder="aaa@bbb.com" class="textfield">
                 <label for="confemail">Confirme o e-mail</label>
-                <input type="email" id="confemail" placeholder="aaa@bbb.com">
+                <input type="email" id="confemail" placeholder="aaa@bbb.com" class="textfield">
     
                 <label for="doc">Faça uploud do documento</label>
-                <input type="file" id="doc" accept=".pdf">
+                <input type="file" id="doc" accept=".pdf"><br><br>
     
                 <input type="hidden" id="test" value="test">
     
                 <label for="image">Faça uploud da foto:</label>
-                <input type="image" id="image">
+                <input type="image" id="image"><br><br>
     
                 <label for="telefone">Telefone:</label>
-                <input type="number" id="telefone" placeholder="(11) 99999-9999">
+                <input type="number" id="telefone" placeholder="(11) 99999-9999" class="textfield">
     
                 <label for="pass">Senha:</label>
-                <input type="password" id="pass">
+                <input type="password" id="pass" class="textfield">
                 <label for="confpass">Confirme a senha:</label>
-                <input type="password" id="confpass">
+                <input type="password" id="confpass" class="textfield">
     
-                <label for="sexo">Sexo:</label>
+                <label for="sexo">Sexo:</label><br>
                 <input type="radio" id="fem" name="sexo" value="f">
-                <label for="fem">Feminino</label>
+                <label for="fem">Feminino</label><br>
                 <input type="radio" id="masc" name="sexo" value="m">
-                <label for="masc">Masculino</label>
+                <label for="masc">Masculino</label><br>
                 <input type="radio" id="ni" name="sexo" value="n">
-                <label for="ni">Prefere não declarar</label>
+                <label for="ni">Prefere não declarar</label><br><br>
     
                 <label for="sastifação">Satisfação:</label>
-                <input type="range" id="satisfação">
+                <input type="range" id="satisfação"><br><br>
     
                 <input type="checkbox" id="agree" value="y">
-                <label for="agree">Concordo com os termos</label>
+                <label for="agree">Concordo com os termos</label><br>
                 <input type="checkbox" id="agree" value="y">
-                <label for="agree">Concordo com as políticas</label>
+                <label for="agree">Concordo com as políticas</label><br><br>
     
-                <input type="reset" value="limpar">
-                <button type="button">Enviar</button>
+                <input type="reset" value="limpar" class="whiteButton">
+                <button  class="whiteButton" type="button">Enviar</button>
             </form>
         </div>
     </div>
